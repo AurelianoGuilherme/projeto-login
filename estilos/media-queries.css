@@ -21,8 +21,7 @@ Lilas: #5f2c82
     box-sizing: border-box;
 }
 section#login{
-    width: 80vw;
-    height: 290px;
+    height: 550px;
 }
 form > div.campo > input{
     background-color: #60beba;
@@ -34,7 +33,7 @@ form > div.campo > input{
     padding: 4px;
     border: 2px solid #5f2c82;
 
-    transform: translateY(-11px);
+    transform: translateY(-10px);
 }
 
 @media screen and (min-width:768px) and (max-width:1024px) {
