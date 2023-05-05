@@ -20,7 +20,22 @@ Lilas: #5f2c82
     padding: 0px;
     box-sizing: border-box;
 }
+section#login{
+    width: 80vw;
+    height: 290px;
+}
+form > div.campo > input{
+    background-color: #60beba;
+    font-size: 1em;
+    width: calc(100% - 44.4px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    border: 2px solid #5f2c82;
 
+    transform: translateY(-11px);
+}
 
 @media screen and (min-width:768px) and (max-width:1024px) {
     body{
