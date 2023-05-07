@@ -20,25 +20,7 @@ Lilas: #5f2c82
     padding: 0px;
     box-sizing: border-box;
 }
-@media screen and (min-width: 320px) and (max-width: 481px) {
-    
 
-section#login{
-    height: 550px;
-}
-form > div.campo > input{
-    background-color: #60beba;
-    font-size: 1em;
-    width: calc(100% - 44.4px);
-    height: 100%;
-    border: 0px;
-    border-radius: 8px;
-    padding: 4px;
-    border: 2px solid #5f2c82;
-
-    transform: translateY(-10px);
-}
-}
 @media screen and (min-width:768px) and (max-width:1024px) {
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
